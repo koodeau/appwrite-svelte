@@ -1,11 +1,15 @@
-# svelte-appwrite (Beta)
+# appwrite-svelte (Beta)
+
+Appwrite SDK with ready to go components for `Svelte` / `SvelteKit`
+
+> SvelteKit usage is remain unstable
 
 Easy to use [Appwrite](https://appwrite.io/) components for Svelte. Install it:
 
 ```bash
-npm install svelte-appwrite
+npm install appwrite-svelte
 # or 
-yarn svelte-appwrite
+yarn add appwrite-svelte
 ```
 
 # Table of contents
@@ -92,7 +96,7 @@ Must be initialised and wrap every `svelte-appwrite` component.
   const config = {
     endpoint: "http://localhost/v1",
     project: "5f4938898667e",
-    locale: "de",
+    locale: "en", // optional
   };
 </script>
 
